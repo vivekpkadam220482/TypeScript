@@ -121,6 +121,11 @@ public/
 tmp/
 temp/
 
+# Project specific folders
+/Baseline/
+/Checkpoint/
+/Results/
+
 # Editor directories and files
 .vscode/
 !.vscode/extensions.json
