@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Testing Sample Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Visual Testing Demo</h1>
+        <nav class="nav">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">About</a>
+            <a href="#" class="nav-link">Contact</a>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="card">
+                <h2>Welcome to Visual Testing</h2>
+                <p>This is a sample page designed for visual regression testing using Playwright and Applitools Eyes.</p>
+                
+                <div class="button-container">
+                    <button id="themeToggle" class="btn btn-primary">Toggle Dark Mode</button>
+                    <button id="showModal" class="btn btn-secondary">Show Modal</button>
+                </div>
+            </div>
+
+            <div class="features">
+                <div class="feature-card">
+                    <h3>Feature 1</h3>
+                    <p>Automated visual testing ensures your UI looks perfect across different browsers and devices.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Feature 2</h3>
+                    <p>Catch visual regressions before they reach production with intelligent diff detection.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Feature 3</h3>
+                    <p>Integrate seamlessly with your CI/CD pipeline for continuous visual validation.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Sample Modal</h2>
+            <p>This modal appears when you click the "Show Modal" button. It's perfect for testing UI state changes.</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Visual Testing Demo. Built with Playwright and Applitools.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
